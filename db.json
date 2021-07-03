@@ -1,0 +1,21 @@
+
+    [
+      {
+          "razza":"Pastore tedesco",
+          "descrizione":"Il cane da Pastore Tedesco è una delle razze più facilmente riconoscibili al mondo. Il loro aspetto è di un cane forte e muscoloso, saldo di nervi, attento e docile. Razza agile e orgogliosa. Il loro mantello di copertura è disponibile in una vasta gamma di colori (vedi lo standard di razza) e il pelo duro o lungo in entrambi i casi compatto e con spesso sottopelo. L'altezza ideale per i maschi adulti è di 63 cm e per le femmine di 58 cm. Il range di peso ideale oscilla tra 30-36 kg.",
+          "luogo":"Germania",
+          "temperamento":"Adatto a case con giardino, potrebbe richiedere la presenza di un addestratore"
+      },
+      {
+          "razza":"Siberian Husky",
+          "descrizione":"Il Siberian Husky è una razza di media taglia poco adatta alla vita alla vita in solitudine. La sua natura particolare fa sì che sia una razza sconsigliabile ad un proprietario inesperto. Si tratta di un cane che può muoversi agevolmente nei climi freddi e che mostra qualche cedimento nei climi afosi. Gode di un'ottima salute generale ed è piuttosto incline alla socializzazione con altri cani e sconosciuti.",
+          "luogo":"Siberia",
+          "temperamento":"Adora stare in famiglia e giocare con i bambini. Può stare in appartamento ma ha costante bisogno di esercizio quotidiano"
+      },
+      {
+          "razza":"Breton",
+          "descrizione":"La razza potrebbe essere nata dall’incrocio tra il Setter di colore bianco arancio e i cani d’Oysel. Le origini in realtà sono però incerte. La prima volta che comparve ad una mostra canina a Parigi era il 1896. Lo standard venne definito nel 1908, ma nel corso degli anni vennero eseguite numerose modifiche, fino a qualche anno fa. Intorno agli anni ’30 conobbe un periodo di grande notorietà. Tutti ne apprezzavano (e ne apprezzano ancora oggi) le doti da cacciatore. Questo cane infatti è uno dei pochi a riuscire a fare tutto da solo: mettere in azione la selvaggina, localizzarla, prenderla e riportarla al padrone, in particolare le anatre.",
+          "luogo":"Francia",
+          "temperamento":"Agile e sportivo, non sta mai fermo ed è sempre in continuo movimento. Se siete pigri, pensateci bene!"
+      }
+  ]

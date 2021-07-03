@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Doggy Doggo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">      
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+    />
+  </head>
+  <body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top d-flex flex-row align-items-center">
+            <div class="container col-8 ">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-mdb-toggle="collapse"
+                data-mdb-target="#navbarExample01"
+                aria-controls="navbarExample01"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <i class="fas fa-bars"></i>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarExample01">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item active">
+                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <form class=" col-4 form-inline h-100 d-flex flex-row justify-content-end align-items-center">
+                <input id="barra" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button id="searchButton" class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+          </nav>
+    
+      <!-- Background image -->
+      <div
+        class="p-5 text-center bg-image"
+        style="
+          background-image: url('https://static1.squarespace.com/static/5a3adeb11f318d9dd2dfadaa/t/5b0d81e8575d1f0c161cf1dd/1527611885582/puppies.jpg');
+          height: 600px;
+          margin-top: 58px;
+          background-repeat: no-repeat;
+          background-size: cover;
+        "
+      >
+        
+        <div class="d-flex flex-column bd-highlight mb-3">
+          <div class="text-white">
+            <h1 class="display-2 mb-4">5 curiosità sui cani e altre 5 su cose assolutamente random</h1>
+          </div>
+          
+          <div class = "utente d-flex flex-column align-items-center" style='font-family: "Source Sans Pro", sans-serif; position: relative;'>
+            <div>
+              <img id = "foto" class="col-3 col-sm-5 col-md-10 rounded-circle border border-danger" src = "data:image/jpeg;base64,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"> </br>
+            </div>  
+            
+              <h1 id = "nome" class="text-black pt-2" style="font-size: 5vh;">Lilia Platania</h1> </br>
+              <h2 id= "accesso" class="text-black" style="font-size: 5vh;"> ultimo accesso: oggi </h2>
+            </div>    
+        </div>
+      </div>
+    </header>
+
+    <div id="articles-container" class="h-100 py-3  d-flex flex-column justify-content-between align-items-center ">
+
+      <article id="article1" class="py-3 h-100 d-flex flex-row justify-content-center align-items-start min-vh-20">
+
+        <div class="d-flex flex-column-reverse align-items-end col-sm-1 col-md-2">
+          <div class = "numero pe-3 text-muted" style="font-weight: bold; font-size: 9vh;">1.</div>
+        </div>
+
+        <section class="col-sm-10 col-md-9 ">
+          <div class = "razza pe-1 text-dark" style='font-size:9vh; font-family: "Roboto Slab", serif;'>Riconoscono le parole </div>
+          <div class = "intestazione pb-3" style="font-size: 3.5vh;">Fido mediamente riconosce 200 parole, come un bimbo di 2 anni. Secondo la ricerca che ha fornito questa stima (American Psychological Association, 2009) il cane più intelligente è il Border Collie seguito dal Barboncino e dal Pastore tedesco. Anche se c’è una cagnolina di razza Chaser che ha superato di gran lunga il collega comprendendo più di mille termini, dopo uno specifico allenamento. Ma l’abilità di Fido non si ferma di certo al vocabolario: il cane è un campione a interpretare gesti, espressioni, toni di voce e perfino a capire e lasciarsi capire con un solo sguardo.</div>
+              
+          <!--<div class="d-flex">
+            <div class="p-5 text-center bg-image"
+                style="background-image: url("https://image.shutterstock.com/image-photo/dog-lies-comfortably-on-yellow-260nw-1761267053.jpg");
+                  height: 250px;
+                  margin-top: 58px;
+                  background-repeat: no-repeat;
+                  ">
+            <div>
+                
+            <h1 class="text-center">I topi e i cavalli non possono vomitare</h1>   
+    
+          </div>  -->
+          
+          <div class="d-flex flex-column align-items-center py-3 border-top border-bottom border-dark">
+          <div class="d-flex align-items-center">
+            <img src="https://t3.ftcdn.net/jpg/00/78/16/92/360_F_78169262_sOHqZ5Mo17ACbTpPPm0zFyTBSxAiP948.jpg" style="height: 40vh">
+          <img src="https://t3.ftcdn.net/jpg/00/78/16/92/360_F_78169262_sOHqZ5Mo17ACbTpPPm0zFyTBSxAiP948.jpg" style="height: 40vh">
+          </div>
+          
+          <h1 class="pt-n3">
+            I topi e i cavalli non possono vomitare</h1>       
+        </div> 
+      </div>
+
+        </section>
+      </article>
+
+        <article id="article2" class="py-3 h-100 d-flex flex-row justify-content-center align-items-start min-vh-20">
+
+          <div class="d-flex flex-column-reverse align-items-end col-sm-1 col-md-2">
+            <div class = "numero pe-3 text-muted" style="font-weight: bold; font-size: 9vh;">2.</div>
+          </div>
+
+            <section class="col-sm-10 col-md-9">
+              <div class = "razza pe-1 text-dark" style='font-size:9vh; font-family: "Roboto Slab", serif;'>Non amano essere abbracciati </div>
+              <div class = "intestazione pb-3" style="font-size: 3.5vh;">Chiunque abbia un cane si sente sopraffare dall'amore per il suo amico a quattro zampe. Sarebbe meglio tuttavia, evitare di abbracciarlo con tutto lo slancio di cui siamo capaci. Gli abbracci fanno parte dell'etogramma - cioè del codice di comportamento - dei primati, come noi. I cani non si abbracciano e se uno posiziona una zampa sul dorso di un altro, è in segno di predominanza. Il miglior amico dell'uomo tollera spesso di buon grado le nostre manifestazioni d'affetto, ma è facile capire se gradisce o meno un contatto così ravvicinato. Se mentre lo abbracciate tende le orecchie, irrigidisce i muscoli, si lecca la bocca ed evita il contatto visivo è probabilmente nervoso: meglio cercare un'altra forma più "canina" di interazione.</div>
+              
+              <div class=" d-flex align-items-center align-content-center bg-image"      
+                style="background-image: url('https://image.shutterstock.com/image-photo/dog-lies-comfortably-on-yellow-260nw-1761267053.jpg');
+                height: 30vh;"">
+                <h1 class="mask" style="background-color: rgba(0, 0, 0, 0.3);">
+                  I topi e i cavalli non possono vomitare</h1>       
+              </div>      
+            </section>
+        </article>
+
+      </div>
+
+    </div>
+
+    <div id="spawnModale">
+    </div>
+
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+    <script src="main.js" type="module"></script>
+  </body>
+</html>
